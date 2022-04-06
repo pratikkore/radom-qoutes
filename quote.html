@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Random Quotes Genrator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='quote.css'>
+    <script src='quote.js'></script>
+</head>
+
+<body style="height:100vh;" onload="setQuotes()">
+
+    <div style="height: 100%;" id="quote-container">
+        <div id="header-content"
+            style="color: #ffffff;font-size: 22px;font-weight: 600;text-align: center;padding: 80px  0 15px 0;"></div>
+
+        <div id="header-content"></div>
+        <div style="display: flex;justify-content: center;align-items: center;">
+            <div style="width:435px;background-color: blanchedalmond;box-shadow: 0 10px 6px -6px #777;
+            border: 2px solid blanchedalmond;border-radius: 20px;">
+                <div style="height: 230px;text-align: center;">
+                    <div style="height: 173px;overflow: auto;">
+                        <div style="font-size: 20px; font-family: cursive ;padding: 15px 30px ;" id="quote-text">
+
+                        </div>
+                        <div style="font-size: 16px; font-family: cursive; text-align: right; margin: 3px 41px; "
+                            id="auother">
+
+                        </div>
+                    </div>
+                    <div class="footer  ">
+                        <button id="next-button" onclick="getNextQuote()"><span>Next Quote </span></button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
